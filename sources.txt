@@ -1,0 +1,20 @@
+Sources:
+
+1.) audit file
+
+- Nikos Tavoularis post helped me a lot to get a base srtucture for the functions that explore the data 
+
+https://stackoverflow.com/questions/14897426/counting-number-of-xml-tags-in-python-using-xml-dom-minidom
+
+2.) parse file 
+
+- Pratyush Kumas awesome, short and well structured code helped me to understand the required nested if else statements.
+
+https://github.com/pratyush19/Udacity-Data-Analyst-Nanodegree/blob/master/P3-OpenStreetMap-Wrangling-with-SQL/data.py
+
+3.) load to sql file
+
+- Tennessee Leeuwenburg made an awesome suggestion to use pandas for small/mid sized data
+- Bernie showed how it is done just using csv, sqlite3 libraries 
+
+https://stackoverflow.com/questions/2887878/importing-a-csv-file-into-a-sqlite3-database-table-using-python
