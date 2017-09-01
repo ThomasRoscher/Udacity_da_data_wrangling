@@ -9,6 +9,6 @@ This project is connected to the Udacity Data Wrangling course. I used Open Stre
 - Lastly, I do some queries to analyse the data (see analyse_sql.py)
 
 I used the OSM data for Berlin's borough “Friedrichshain-Kreuzberg” which can be found here: http://www.openstreetmap.org/relation/55764
-The reason for choosing this area is quiet straight forward: I live in this area and it surely is one of the most vibrating, coolest places on earth :)
+The reason for choosing this area is quiet straight forward: I live in this area and it surely is one of the most vibrating and coolest places on earth :)
 
 
