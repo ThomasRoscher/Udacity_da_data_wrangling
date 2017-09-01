@@ -42,7 +42,7 @@ tags_unique = count_unique_tags("fk.osm")
 def count_unique_keys(filename):
     attrib_k = []
     for event, element in ET.iterparse(filename):      
-        if element.tag["node", "way", "relation"]:
+        if element.tag == "tag":
             for tag in element.iter("tag"):
                 attrib_k.append(tag.attrib["k"])
     k = Counter(attrib_k).keys()
