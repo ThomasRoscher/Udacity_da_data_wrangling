@@ -30,6 +30,10 @@ rare_users = (cur.fetchall())
 cur.execute("SELECT value, COUNT(*) as num FROM nodes_tags WHERE key='amenity' GROUP BY value ORDER BY num DESC;")
 top_amenites = (cur.fetchall())
 
+# drinks and food
+cur.execute("SELECT COUNT(*) as num FROM nodes_tags WHERE value='cafe' OR value='fast_food' OR value='bar' or value='pub' OR value ='restaurant';")
+goingout = (cur.fetchall())
+
 # entries in nodes over time 
 cur.execute("SELECT COUNT(*), strftime('%Y', timestamp) as Year FROM nodes Group by year ORDER by year;")
 over_time_nodes = (cur.fetchall())
